@@ -1,3 +1,138 @@
+
+/* hidden elements */ 
+
 .hidden{
     display:none;
+}
+
+.hidden-tablet {
+    display: none;
+}
+
+.hidden-desktop {
+    display: none;
+}
+
+/* General Styles */ 
+
+
+h2 {
+    font-family: 'Sintony', sans-serif;
+    font-size: 40px; 
+    color: #707070;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #707070;
+}
+
+ul li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #F7931E;
+    list-style: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+input, textarea {
+    display: block;
+    margin: 0;
+    padding: 0;
+ }
+
+
+
+/* Burger Menu */
+
+#nav-con button {
+    background: url(../img/hamburger_icon.svg) no-repeat center;
+    margin-top: 10px;
+    transition: all .5s ease;
+    border: 0;
+    width: 50px;
+    height: 50px;
+ }
+
+ #burger-con.slide-toggle {
+    display: block;
+    align-self: center;
+ }
+
+ #burger-con {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: none;
+ }
+ 
+ 
+ #nav-con ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ #nav-con ul li a {
+    display: block;
+    padding: 20px;
+    color: #F7931E;
+    text-align: center;
+ }
+ 
+ #nav-con ul li a:hover {
+    border-bottom: 2px solid #F7931E;
+    text-decoration: none;
+ }
+
+
+#mobile-nav-icons {
+    display: flex;
+    justify-content: center;
+}
+
+
+#logo {
+    margin-top: 20px;
+}
+
+/* --- media queries --- */ 
+
+/* --- tablet --- */ 
+
+@media screen and (min-width: 768px) {
+
+#header-icons {
+    display: block;
+}
+
+#button {
+    display: none;
+}
+
+/* --- desktop --- */  
+
+@media screen and (min-width: 1200px) {
+.hidden-desktop {
+    display: block;
+}
+
+.hidden-mobile {
+    display: none;
+}
+
+}
+
 }
