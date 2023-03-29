@@ -2,16 +2,107 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>MMED-1056 Folder Setup Template</title>
-
-    <!-- we must link to the css reset or normalize first, then load our main.css file, CHOOSE ONE-->
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <title>Squeezit Team Bio Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Sintony:wght@400;700&family=Wire+One&display=swap" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Content will go here -->
+    <h1 class="hidden">Squeezit Team Bio Page</h1>
+    <header class="grid-con" id="main-header">
+      <nav id="nav-con" class="col-span-full m-col-start-4 m-col-end-11">
+      <h2 class="hidden">Main Navigation</h2> 
+      <button id="button"></button>
+      <div id="burger-con">
+        <ul id="burger-menu">
+            <li><a href="#">PRODUCTS</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="index.html">HOME</a></li>
+            <li id="mobile-nav-icons"><a href="account.html"><img src="img/account_icon.svg"></a> 
+                <a href="account.html"><img src="img/shopping_icon.svg"></a>
+            </li>
+        </ul>
+      </div>
+      </nav>
+      <div id="logo" class= "col-span-full col-end-5 m-col-start-1 m-col-end-4">
+        <img src="img/official_squeezit_rebrand_logo.svg">
+      </div>
+      <div id="header-icons" class="hidden col-start-3 m-col-start-11 m-col-end-13">
+        <img src="img/account_icon.svg">
+        <img src="img/shopping_icon.svg">
+      </div>
+    </header>
+  
+ <main>
+    <section class="grid-con" id="hero-con"> 
+      <h2 class="hidden">Hero Image</h2> 
+        <div class="box col-start-1 col-end-4 m-col-start-2 m-col-end-6">text</div>
+        <div class="box col-start-1 col-end-5 m-col-start-2 m-col-end-12">hero</div>
+    </section>
 
+    <section id="flavour-con" class="grid-con">
+       <h2 class="hidden">Flavours</h2> 
+        <div class="box col-span-full m-col-span-3"><h3>chucklin' cherry info</h3></div>
+        <div class="box col-span-full m-col-span-3"><h3>silly strawberry info</h3></div>
+        <div class="box col-span-full m-col-span-3"><h3>grumpy grape info</h3></div>
+        <div class="box col-span-full m-col-span-3"><h3>smarty arty orange info</h3></div>
+   </section>
+
+      <section class="grid-con" id="benefit-con">
+        <h2 class="hidden">Health Benefits</h2> 
+        <div class="box col-span-full">80% less sugar</div>
+        <div class="box col-span-full">100%  fruit</div>
+        <div class="box col-span-full">same fruity taste</div>
+      </section>
+
+      <div class="grid-con" id="svg-group">
+        <div class="box col-start-2 col-end-4 m-col-start-4 m-col-end-10">svg imgs</div>
+      </div>
+
+      <section id="article-con">
+        <h2 class="hidden">Articles</h2> 
+        <article class="grid-con">
+            <div class="box col-span-full m-col-span-4"><h3>blog post 1</h3></div>
+            <div class="hidden-tablet box m-col-span-4"><h3>blog post 2</h3></div>
+            <div class="hidden-tablet box m-col-span-4"><h3>blog post 3</h3></div>
+        </article>
+      </section>
+
+      <section id="social-con" class="grid-con">
+        <h2 class="hidden">Social Media Images</h2> 
+        <div class="box col-start-1 col-end-5 m-col-span-4 l-col-span-3">social media image</div>
+        <div class="hidden-tablet  box m-col-span-4 l-col-span-3">social media image</div>
+        <div class="hidden-tablet  box m-col-span-4 l-col-span-3">social media image</div>
+        <div class="hidden-tablet  box m-col-span-4 l-col-span-3">social media image</div>
+        <div class="hidden-tablet box m-col-span-4 l-col-span-3">social media image</div>
+        <div class="hidden-tablet  box m-col-span-4 l-col-span-3">social media image</div>
+        <div class="hidden-desktop box l-col-span-3">social media image</div>
+        <div class="hidden-desktop box l-col-span-3">social media image</div>
+        <div class="hidden-mobile box col-start-2 col-end-4">gallery controls</div>
+        <div class="box col-start-2 col-end-4 m-col-start-6 m-col-end-8">follow us button</div>
+      </section>
+
+      <section id="contact-con" class="grid-con">
+        <h2 class="hidden">Contact Form</h2> 
+        <div class="box col-start-2 col-end-4 m-col-start-5 m-col-end-9">contact us</div>
+        <div class="box col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-7">map</div>
+        <div class="box col-span-full m-col-start-2 m-col-end-12 l-col-start-7 l-col-end-12">contact form</div>
+        <div class="box col-start-2 col-end-4 m-col-start-6 m-col-end-8">sign up</div>
+      </section>
+ </main>
+
+      <footer id="footer-con" class="grid-con">
+        <h2 class="hidden">Main Footer Navigation</h2> 
+        <div class="box col-span-full m-col-start-1 m-col-end-4">logo</div>
+        <nav class="box col-span-full m-col-start-4 m-col-end-11 l-col-start-5 l-col-end-11">navigation</nav>
+        <div class="box col-span-full">social media icons</div>
+      </footer>
+   
     <!-- link to JS file, above closing body tag -->
     <script src="js/main.js"></script>
 </body>
