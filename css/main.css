@@ -140,7 +140,9 @@ input, textarea {
 
 /* --- Callidora Bio --- */ 
 
-#calli-bio {
+
+
+.bios {
     background-color: #FFB45C;
 }
 
@@ -148,28 +150,60 @@ input, textarea {
 
 .svg-character {
     width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
 }
 
-#calli-img {
+.profile-img {
     
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 20%;
+    width: 40%;
+    margin-top: 30px;
 }
 
-#calli-bio ul li img {
+.bios ul li img {
     width: 60%;
 }
 
-#calli-bio ul li  {
+.bios ul li  {
     display: inline-block;
+    margin-right: 20px;
 }
 
-#calli-bio ul {
+.bios ul {
     text-align: center;
 }
 
+
+.bios h2, p {
+    color: white;
+}
+
+.bios h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.bios p {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.social-icons {
+    padding-bottom: 10px;
+}
+
+#magnus-bio {
+    margin-top: 20px;
+    background-color: #F1A7B6;
+}
 
 /* --- media queries --- */ 
 
