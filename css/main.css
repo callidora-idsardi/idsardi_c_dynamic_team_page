@@ -18,7 +18,7 @@
 
 h2 {
     font-family: 'Sintony', sans-serif;
-    font-size: 40px; 
+    font-size: 20px; 
     color: #707070;
     font-weight: bold;
 }
@@ -29,18 +29,11 @@ h3 {
     font-weight: bold;
 }
 
-p {
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    color: #707070;
-}
-
 ul li {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     color: #F7931E;
     list-style: none;
-    text-align: center;
     font-weight: bold;
 }
 
@@ -54,9 +47,15 @@ input, textarea {
     padding: 0;
  }
 
+ p {
+    font-size: 12px;
+    font-family: 'Sintony', sans-serif;
+ }
 
 
-/* Burger Menu */
+/* Main Nav */
+
+
 
 #nav-con button {
     background: url(../img/hamburger_icon.svg) no-repeat center;
@@ -73,9 +72,10 @@ input, textarea {
  }
 
  #burger-con {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     display: none;
+    order: -1;
  }
  
  
@@ -90,10 +90,11 @@ input, textarea {
     padding: 20px;
     color: #F7931E;
     text-align: center;
+    transition: all .4s ease;
  }
  
  #nav-con ul li a:hover {
-    border-bottom: 2px solid #F7931E;
+    color:#f7921e7a; 
     text-decoration: none;
  }
 
@@ -105,8 +106,70 @@ input, textarea {
 
 
 #logo {
-    margin-top: 20px;
+    margin-top: 30px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+
+/* --- Hero Area --- */ 
+
+#hero-con h2 {
+    color: #65AC3E;
+    border:1px solid #65AC3E;
+    border-radius: 40px;
+    text-align: center;
+    margin-top: 94px;
+    padding: 10px;
+}
+
+#hero-con p {
+    text-align: center;
+    margin-top: 55px;
+    color: #65AC3E;
+    line-height: 35px;
+}
+
+#hero-con h3 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 68px;
+    color: #F7931E; 
+}
+
+/* --- Callidora Bio --- */ 
+
+#calli-bio {
+    background-color: #FFB45C;
+}
+
+
+
+.svg-character {
+    width: 50%;
+}
+
+#calli-img {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+#calli-bio ul li img {
+    width: 60%;
+}
+
+#calli-bio ul li  {
+    display: inline-block;
+}
+
+#calli-bio ul {
+    text-align: center;
+}
+
 
 /* --- media queries --- */ 
 
@@ -114,13 +177,59 @@ input, textarea {
 
 @media screen and (min-width: 768px) {
 
+/* gen styles */ 
+
+
+
+
+
+
+/* main nav */ 
+
 #header-icons {
     display: block;
 }
 
+#burger-con {
+    display: block;
+    margin-top: 30px;
+}
+
+#nav-con ul li a {
+    display: inline;
+    font-size: 10px;
+ }
+
+ #nav-con ul li a p {
+    font-size: 10px;
+    display: block;
+    margin: 0 auto;
+ }
+
+
 #button {
     display: none;
 }
+
+#mobile-nav-icons {
+margin-left: 20px;
+}
+
+#mobile-nav-icons img {
+    width: 5%;
+}
+
+#burger-con ul li, #burger-con ul li:first-child {
+    border: none;
+    display: inline;
+ }
+
+#logo {
+    order: -1;
+    margin-top: 20px;
+}
+
+
 
 /* --- desktop --- */  
 
@@ -133,6 +242,14 @@ input, textarea {
     display: none;
 }
 
+
+#nav-con ul li a {
+    font-size: 15px;
+}
+
+#mobile-nav-icons {
+    margin-left: 100px;
+    }
 }
 
 }
