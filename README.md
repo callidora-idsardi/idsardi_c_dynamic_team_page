@@ -1,8 +1,8 @@
-# idsardi_c_dynamic_team_page
+# Squeezit Dynamic Team Page
 
-# <img src="imgs/official_squeezit_rebrand_logo.svg" alt="Squeezit Logo" width="60px"> Squeezit
+# <img src="img/official_squeezit_rebrand_logo.svg" alt="Squeezit Logo" width="300px"> 
 
-We created a dynamic team page for Squeezit. Click the "More Info" Button to see each individual team member's bio information! 
+We created a dynamic team page for Squeezit. Click the "More Info" Buttons to see each individual team member's bio information! 
 
 ## Contributing
 1. Fork it!
