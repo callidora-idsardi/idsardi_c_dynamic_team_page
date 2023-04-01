@@ -86,14 +86,23 @@ font-size: 15px;
 color: #a56317;
 margin-left: 30px;
 margin-bottom:10px;
+margin-top: 20px;
+line-height: 25px;
+}
+
+#info-div h2 {
+   color:#F7931E;
+   margin: 20px;
 }
 
 #info-div {
-    border-radius: 10px;
-    border:1px outset #F7931E;
-    height: 100px;
     padding: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+#info-div img {
+    width: 20%;
 }
 
 
@@ -335,12 +344,13 @@ margin-left: 30px;
 margin-bottom:10px;
 }
 
+#info-div h2 {
+    font-size: 25px;
+}
+
 #info-div {
-    border-radius: 10px;
-    border:1px outset #F7931E;
-    height: 80px;
     padding: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 /* gen styles */ 
@@ -414,6 +424,17 @@ h2 {
 /* --- desktop --- */  
 
 @media screen and (min-width: 1200px) {
+
+/*dynamic div*/ 
+
+#info-div {
+    margin-bottom: 50px;
+}
+
+#info-div img {
+    width: 15%;
+    
+}
 .hidden-desktop {
     display: block;
 }

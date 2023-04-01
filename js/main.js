@@ -7,14 +7,14 @@ let theButtons = document.querySelectorAll('button'),
 let members = {
     calli : {
 		Name: 'Callidora Idsardi',
-		Bio: 'Calli Info',
-		Image:'img/calli_ldncno_c_scale,w_200.png'
+		Bio: 'Callidora is an awesome part of our team here at Squeezit. She enjoys cooking, bullet journaling, and listening to music on her free time - and most of all, creating content for our brand!',
+		Image:'img/smarty_arty_ornage.svg'
     },
 
     magnus : {
        Name: 'Magnus Bane',
-	   Bio: 'Magnus is an essential team member here at Squeezit. As our in-house dog, he provides daily happiness for our team and clients. Without Magnus, we would not be happy.',
-	   Image:  'img/magnus_pqxn4z_c_scale,w_200.png'
+	   Bio: 'Magnus is an essential team member here at Squeezit. As our in-house dog, he provides daily happiness for our team and clients. Magnus is a team player who shows up on time everyday, especially for treats.',
+	   Image:  'img/chucklin_cherry.svg'
     },  
 };
 
