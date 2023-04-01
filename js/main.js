@@ -47,15 +47,6 @@ theButtons.forEach(teamButton => teamButton.addEventListener('click', listInfo))
 
 
 
-
-
-
-
-
-
-
-
-
 // HAMBURGER MENU
 
 (function(){
