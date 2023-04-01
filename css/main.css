@@ -1,5 +1,6 @@
 
-/* hidden elements */ 
+/* hidden elements */
+
 
 .hidden{
     display:none;
@@ -50,7 +51,50 @@ input, textarea {
  p {
     font-size: 15px;
     font-family: 'Sintony', sans-serif;
+    color: black;
  }
+
+
+ /* dynamic div */ 
+
+ button, input[type="submit"], input[type="reset"] {
+	color: black;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    font-family: 'Poppins', sans-serif;
+    background: #f3efeb; 
+    padding: 5px;
+    width: 100px;
+    border-radius: 60px;
+    margin-top: 20px;
+}
+
+
+#calli-bio button {
+    border:solid 1px #F7931E;
+}
+
+#magnus-bio button {
+    border: solid 1px #E82147;
+}
+
+#info-div p  {
+font-size: 15px;
+color: #a56317;
+margin-left: 30px;
+margin-bottom:10px;
+}
+
+#info-div {
+    border-radius: 10px;
+    border:1px outset #F7931E;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
 
 
 /* Main Nav */
@@ -143,11 +187,6 @@ input, textarea {
 /* --- Callidora Bio --- */ 
 
 
-#full-bio-con {
-    padding: 10px;
-    margin-bottom: 50px;
-}
-
 
 .bios {
     background-color: #FFB45C;
@@ -214,6 +253,7 @@ input, textarea {
 
 #calli-bio {
     margin-top: 20px;
+    text-align: center;
 }
 
 /* Magnus' Bio */ 
@@ -221,6 +261,7 @@ input, textarea {
 #magnus-bio {
     background-color: #F1A7B6;
     margin-top: 20px;
+    text-align: center;
 }
 
 
@@ -261,12 +302,56 @@ footer #button {
 
 @media screen and (min-width: 768px) {
 
+ /* dynamic div */ 
+
+ button, input[type="submit"], input[type="reset"] {
+	color: black;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    font-family: 'Poppins', sans-serif;
+    background: #f3efeb; 
+    padding: 5px;
+    width: 100px;
+    border-radius: 60px;
+    margin-top: 20px;
+}
+
+
+#calli-bio button {
+    border:solid 1px #F7931E;
+}
+
+#magnus-bio button {
+    border: solid 1px #E82147;
+}
+
+#info-div p  {
+font-size: 15px;
+color: #a56317;
+margin-left: 30px;
+margin-bottom:10px;
+}
+
+#info-div {
+    border-radius: 10px;
+    border:1px outset #F7931E;
+    height: 80px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
 /* gen styles */ 
 
 p {
-    font-size: 20px;
+    font-size: 15px;
 }
 
+h2 {
+    font-size: 15px;
+}
 
 
 
