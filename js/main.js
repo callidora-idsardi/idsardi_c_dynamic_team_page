@@ -8,14 +8,13 @@ let members = {
     calli : {
 		Name: 'Callidora Idsardi',
 		Bio: 'Calli Info',
-		Image:
-
+		Image:'img/calli_ldncno_c_scale,w_200.png'
     },
 
     magnus : {
        Name: 'Magnus Bane',
-	   Bio: 'Magnus is an essential team member here at Squeezit. As our in-house dog, he provides daily happiness for our team and clients. Without Magnus, we would not be happy.' 
-	   Image: 
+	   Bio: 'Magnus is an essential team member here at Squeezit. As our in-house dog, he provides daily happiness for our team and clients. Without Magnus, we would not be happy.',
+	   Image:  'img/magnus_pqxn4z_c_scale,w_200.png'
     },  
 };
 
@@ -24,15 +23,20 @@ function listInfo() {
     // empty out the list
     infoDiv.innerHTML = "";
     
-    // and then repopulate it with the correct data
-    for (item in members[this.dataset.team]) {
-        let newItem = document.createElement('p');
-
-        newItem.textContent = members[this.dataset.team][item];
-        infoDiv.appendChild(newItem);
-    }    
-
-
+    // add header
+    let header = document.createElement('h2');
+    header.textContent = members[this.dataset.team]['Name'];
+    infoDiv.appendChild(header);
+    
+    // add image
+    let image = document.createElement('img');
+    image.src = members[this.dataset.team]['Image'];
+    infoDiv.appendChild(image);
+    
+    // add bio
+    let bio = document.createElement('p');
+    bio.textContent = members[this.dataset.team]['Bio'];
+    infoDiv.appendChild(bio);
 }
 
 
